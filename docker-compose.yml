@@ -23,7 +23,7 @@ services:
     volumes:
       - ./server:/app
     working_dir: /app
-    entrypoint: dockerize -wait tcp://db:3306 -timeout 20s && ./start.sh
+    entrypoint: dockerize -wait tcp://db:3306 -timeout 20s ./start.sh
     tty: true
     networks:
       - node-network
