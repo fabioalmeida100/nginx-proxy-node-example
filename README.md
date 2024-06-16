@@ -17,9 +17,8 @@ Below are some concepts that are used in this example:
 
 To run this example, you need to have Docker and Docker Compose installed on your machine.
 
-1. Clone this repository:
-2. Clone the file `env.sample` inside _server_ folder to `.env` and set the environment variables if you want to change the default values.
-3. Run the following command to start the application:
+1. Clone this repository
+2. Run the following command to start the application:
 
 ```bash
 docker-compose up -d
