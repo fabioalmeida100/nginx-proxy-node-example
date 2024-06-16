@@ -25,3 +25,7 @@ docker-compose up -d
 ```
 
 4. Access the web server at `http://localhost:8080`.
+
+You will see a simple result with return of two people from database:
+
+![alt text](image.png)
