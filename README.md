@@ -28,4 +28,4 @@ docker-compose up -d
 
 You will see a simple result with return of two people from database:
 
-![alt text](image.png)
+![alt text](/doc/image.png)
