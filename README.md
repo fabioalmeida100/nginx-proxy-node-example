@@ -29,3 +29,12 @@ docker-compose up -d
 You will see a simple result with return of two people from database:
 
 ![alt text](/doc/image.png)
+
+If you want insert more people in database, you can use this endpoint:
+
+```
+POST http://localhost:8080
+{
+  "name": "John Doe",
+}
+```
